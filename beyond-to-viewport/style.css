@@ -23,7 +23,6 @@ body {
 }
 
 
-
 /* СТИЛИ ДЛЯ ЭЛЕМЕНТА, ВЫХОДЯЩЕГО ЗА РАМКИ ОБЁРТКИ */
 .outside {
   /* 1. Задать относительное позиционирование, чтобы работало смещение left/right */
@@ -39,13 +38,4 @@ body {
   inset-inline-start: 50%;
 
   background: #ECE8F6;
-}
-
-/* БЛОК ДЛЯ КОПИРОВАНИЯ */
-.outside {
-  position: relative;
-  inset-inline-start: 50%;
-
-  inline-size: 100vw;
-  margin-inline-start: -50vw;
 }
