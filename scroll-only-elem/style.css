@@ -9,7 +9,8 @@ section {
 
   overflow-y: auto;
   
-  overscroll-behavior: contain;  /* Свойство, отключающее прокрутку страницы */
+  /* Свойство, отключающее прокрутку страницы */
+  overscroll-behavior: contain;
 }
 
 div {
